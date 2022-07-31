@@ -12,14 +12,11 @@
     font-weight: bold;
 }
 
-@media (max-width: 1200px) {
-    .menu-bar {
-        max-width: 1200px;
-    }
-
-}
-
 @media (max-width: 700px) {
+    .menu-bar {
+        width: 85%;
+        min-width: 300px;
+    }
     .menu-bar li:nth-child(3) {
        display: none;
     }
