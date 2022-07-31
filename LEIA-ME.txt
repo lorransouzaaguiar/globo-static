@@ -1,0 +1,2 @@
+Não coloquei o hover nos links, pois o design não especificou a cor de background. Optei por não 
+escolher uma cor aleátoria e no final ficar feio. Acredito que assim fica mais fiel ao design.

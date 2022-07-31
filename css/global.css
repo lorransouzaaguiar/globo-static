@@ -1,0 +1,106 @@
+/*reset css*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+:root {
+  --white1: #ffffff;
+  --white2: #ebedef;
+  --white3: #f5f6f7;
+  --red1: #c3170c;
+  --red2: #c4160c;
+  --red3: #c4170c;
+  --red4: #fb0735;
+  --gray1: #323333;
+  --gray2: #2f3134;
+  --gray3: #303134;
+  --green1: #07aa47;
+  --green2: #16ae54;
+  --orange1: #e3662b;
+  --orange2: #ec7d00;
+  --orange3: #ec8006;
+  --blue1: #1e4b9b;
+  --blue2: #006766;
+  --pink1: #ff75bb;
+  --purple1: #a81d83;
+
+  --f-size-vs: 14px;
+  --f-size-s: 18px;
+  --f-size-m: 19px;
+  --f-size-l: 20px;
+  --f-size-vl: 52px;
+
+  --spacing-1: 7px;
+  --spacing-2: 9px;
+  --spacing-3: 11px;
+  --spacing-4: 13.5px;
+  --spacing-5: 25px;
+  --spacing-6: 30px;
+  --spacing-7: 35px;
+  --spacing-8: 40.5px;
+  --spacing-9: 50px;
+  --spacing-10: 57px;
+}
+
+body {
+  font-family: "Encode Sans";
+}
+
+.mb-large {
+  margin-bottom: var(--spacing-8);
+}
+
+.without-mb {
+  margin-bottom: 0;
+}
+
+.color-red1 {
+  color: var(--red1);
+}
+.color-blue1 {
+  color: var(--blue1);
+}
+.color-blue2 {
+  color: var(--blue2);
+}
+.color-orange1 {
+  color: var(--orange1);
+}
+.color-orange2 {
+  color: var(--orange2);
+}
+.color-orange3 {
+  color: var(--orange3);
+}
+.color-green1 {
+  color: var(--green1);
+}
+.color-green2 {
+  color: var(--green2);
+}
+.color-red4 {
+  color: var(--red4);
+}
+.color-pink1 {
+  color: var(--pink1);
+}
+.color-gray1 {
+  color: var(--gray1);
+}
+.color-purple1 {
+  color: var(--purple1);
+}
+
+@media (max-width: 1200px) {
+  .mb-large {
+    margin-bottom: 0;
+  }
+}

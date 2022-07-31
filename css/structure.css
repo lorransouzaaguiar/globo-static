@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        '. header header .'
+        'nav nav nav nav'
+        '. section aside .';
+    grid-template-columns: 1fr 662px 588px 1fr ;
+    background-color: var(--white1);
+}
+
+.header-area {
+    grid-area: header;
+    height: 80px;
+}
+
+.nav-area {
+    grid-area: nav;
+    height: 44px;
+    border-top: 1px solid var(--white3);
+    border-bottom: 1px solid var(--white3);      
+}
+
+.main-area {
+    grid-area: section;
+}
+
+.aside-area {
+    grid-area: aside;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        grid-template-columns: 15px 1fr 15px;
+        grid-template-areas:
+          ". header ."
+          ". nav ."
+          ". section ."
+          ". aside .";
+      }
+}
