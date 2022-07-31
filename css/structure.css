@@ -30,11 +30,22 @@
 
 @media (max-width: 1200px) {
     .container {
-        grid-template-columns: 15px 1fr 15px;
+        grid-template-columns: 10px 1fr 15px;
         grid-template-areas:
           ". header ."
           ". nav ."
           ". section ."
           ". aside .";
+      }
+}
+
+@media (max-width: 700px) {
+    .container {
+        grid-template-columns: 100%;
+        grid-template-areas:
+          "header"
+          "nav"
+          "section"
+          "aside";
       }
 }
