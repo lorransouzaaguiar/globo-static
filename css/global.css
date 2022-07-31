@@ -32,11 +32,21 @@ a:visited {
   --pink1: #ff75bb;
   --purple1: #a81d83;
 
-  --f-size-vs: 14px;
-  --f-size-s: 18px;
-  --f-size-m: 19px;
-  --f-size-l: 20px;
-  --f-size-vl: 52px;
+  --f-size-vs: 0.875em;
+  --f-size-2: 2em;
+  --f-size-s: 1.125em;
+  --f-size-3: 1.125em;
+  --f-size-m: 1.187em;
+  --f-size-l: 1.125em;
+  --f-size-vl: 3.25em;
+
+  --f-size-1: 0.875em;
+  --f-size-2: 2em;
+  --f-size-3: 1.125em;
+  --f-size-4: 1.125em;
+  --f-size-5: 1.187em;
+  --f-size-6: 1.125em;
+  --f-size-7: 3.25em;
 
   --spacing-1: 7px;
   --spacing-2: 9px;
