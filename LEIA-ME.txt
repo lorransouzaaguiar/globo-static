@@ -1,2 +1,9 @@
 Não coloquei o hover nos links, pois o design não especificou a cor de background. Optei por não 
 escolher uma cor aleátoria e no final ficar feio. Acredito que assim fica mais fiel ao design.
+
+O layout está responsivo até a versão mobile. Não esta igualzinho ao design do mobile, pois notei 
+que o conteúdo do site na versão mobile é diferente. Mas tentei ser fiel aos espaçamentos e as cores.
+As imagens e os textos mantive o da versão desktop.
+
+Fiz também a versão para tablets, mas fiz de maneira mais livre já que não tinha design. 
+Apenas o suficiente para que o conteúdo fique visível e não quebre.
