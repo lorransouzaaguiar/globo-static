@@ -30,6 +30,7 @@
 
 @media (max-width: 1200px) {
     .container {
+        padding: 0 15px;
         grid-template-columns: 10px 1fr 15px;
         grid-template-areas:
           ". header ."
