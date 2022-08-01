@@ -9,14 +9,14 @@
 }
 
 .card h3 {
-    font-size: var(--f-size-vs);
+    font-size: var(--f-size-1);
     font-weight: 500;
     line-height: 18px;
     margin-bottom: var(--spacing-1);
 }
 
 .card-title {
-    font-size: var(--f-size-l);
+    font-size: var(--f-size-6);
     font-weight: bold;
     width: 192px;
     line-height: 25px;
@@ -24,7 +24,7 @@
 }
 
 .card h2 {
-    font-size: var(--f-size-vs);
+    font-size: var(--f-size-1);
     font-weight: 400;
     width: 174px;
     line-height: 19px;
@@ -41,4 +41,27 @@
     .card h2 {
         width: 100%;
     }
+}
+
+@media (max-width: 700px) {
+    .card {
+        border-bottom: 1px solid var(--white3);    
+        min-height: 121px;
+        padding: var(--spacing-4) 0;
+    }
+
+     .card-content {
+        display: flex;
+        padding: 0;
+    }
+
+     .card img {
+        width: 120px;
+        height: 68px;
+    }
+    
+     .card h3  {
+        display: none;
+    }
+
 }
